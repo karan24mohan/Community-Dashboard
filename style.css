@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3862f6;
+  padding: 1rem;
+}
+
+header .logo {
+  width: 12%;
+}
+
+header .logo img {
+  width: 100%;
+}
+
+header .page-title h3 {
+  color: #fff;
+  font-family: Sora;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+header .user-info h4 {
+  color: #fff;
+  text-align: center;
+  font-family: Sora;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.dashboard-details {
+  background-image: url("./images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding: 1.5rem;
+}
+
+.dashboard-details .dashboard-details-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard-details
+  .dashboard-details-content-wrapper
+  .dashboard-details-content
+  h1 {
+  color: #fff;
+  font-family: Sora;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-details
+  .dashboard-details-content-wrapper
+  .dashboard-details-content
+  h1
+  span {
+  color: #3964fc;
+  font-family: Sora;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.dashboard-details
+  .dashboard-details-content-wrapper
+  .dashboard-details-content
+  p {
+  color: #fff;
+  font-family: Sora;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.dashboard-details
+  .dashboard-details-content-wrapper
+  .create-article-wrapper
+  button {
+  border-radius: 40px;
+  background: #4e75ff;
+  color: #fff;
+  text-align: center;
+  font-family: Sora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: unset;
+  outline: unset;
+}
+
+.dashboard-details .dashboard-article-card-wrapper {
+  margin-top: 4rem;
+}
+
+.dashboard-details .dashboard-article-card-wrapper .article-status-card {
+  position: relative;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 51px 61px 0px rgba(10, 108, 255, 0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 3rem 1rem 3rem;
+}
+
+.dashboard-details
+  .dashboard-article-card-wrapper
+  .article-status-card
+  .article-posted-img {
+  width: 15%;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dashboard-details
+  .dashboard-article-card-wrapper
+  .article-status-card
+  .article-posted-img
+  img {
+  width: 100%;
+}
+
+.dashboard-details .dashboard-article-card-wrapper .article-status-card h4 {
+  color: #262633;
+  text-align: center;
+  font-family: Sora;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.dashboard-details
+  .dashboard-article-card-wrapper
+  .article-status-card
+  .article-posted-number {
+  color: #3964fc;
+  font-family: Sora;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 0%;
+}
+
+.dashboard-details
+  .dashboard-article-card-wrapper
+  .article-status-card
+  .article-unpublished-number {
+  color: #fc4539;
+  font-family: Sora;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 0%;
+}
+
+.dashboard-details
+  .dashboard-article-card-wrapper
+  .article-status-card
+  .article-drafted-number {
+  color: #85c237;
+  font-family: Sora;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 0%;
+}
+
+.articles-list-wrapper {
+  margin-top: 10rem;
+}
+
+.articles-list-wrapper table {
+  width: 90%;
+  margin: auto;
+}
