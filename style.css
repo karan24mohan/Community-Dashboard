@@ -116,11 +116,11 @@ header .user-info h4 {
   outline: unset;
 }
 
-.dashboard-details .dashboard-article-card-wrapper {
-  margin-top: 4rem;
+.dashboard-article-card-wrapper {
+  margin-top: -4rem;
 }
 
-.dashboard-details .dashboard-article-card-wrapper .article-status-card {
+.dashboard-article-card-wrapper .article-status-card {
   position: relative;
   border-radius: 10px;
   background: #fff;
@@ -131,26 +131,19 @@ header .user-info h4 {
   padding: 3rem 3rem 1rem 3rem;
 }
 
-.dashboard-details
-  .dashboard-article-card-wrapper
-  .article-status-card
-  .article-posted-img {
-  width: 15%;
+.dashboard-article-card-wrapper .article-status-card .article-posted-img {
+  width: 4rem;
   position: absolute;
   top: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.dashboard-details
-  .dashboard-article-card-wrapper
-  .article-status-card
-  .article-posted-img
-  img {
+.dashboard-article-card-wrapper .article-status-card .article-posted-img img {
   width: 100%;
 }
 
-.dashboard-details .dashboard-article-card-wrapper .article-status-card h4 {
+.dashboard-article-card-wrapper .article-status-card h4 {
   color: #262633;
   text-align: center;
   font-family: Sora;
@@ -161,10 +154,7 @@ header .user-info h4 {
   white-space: nowrap;
 }
 
-.dashboard-details
-  .dashboard-article-card-wrapper
-  .article-status-card
-  .article-posted-number {
+.dashboard-article-card-wrapper .article-status-card .article-posted-number {
   color: #3964fc;
   font-family: Sora;
   font-size: 60px;
@@ -174,8 +164,7 @@ header .user-info h4 {
   margin-bottom: 0%;
 }
 
-.dashboard-details
-  .dashboard-article-card-wrapper
+.dashboard-article-card-wrapper
   .article-status-card
   .article-unpublished-number {
   color: #fc4539;
@@ -187,10 +176,7 @@ header .user-info h4 {
   margin-bottom: 0%;
 }
 
-.dashboard-details
-  .dashboard-article-card-wrapper
-  .article-status-card
-  .article-drafted-number {
+.dashboard-article-card-wrapper .article-status-card .article-drafted-number {
   color: #85c237;
   font-family: Sora;
   font-size: 60px;
@@ -201,7 +187,7 @@ header .user-info h4 {
 }
 
 .articles-list-wrapper {
-  margin-top: 10rem;
+  margin-top: 2rem;
 }
 
 .articles-list-wrapper table {
